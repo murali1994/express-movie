@@ -1,1 +1,9 @@
 language: node_js
+addons:
+  sonarcloud:
+    organization: "murali1994-github" # the key of the org you chose at step #3
+    token:
+      secure: bb4b41ecd8a7fa16f8d5a4f4b79f0e51782cba31 # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
