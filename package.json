@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "mocha server/test/."
   },
-  "author": "StackRoute <learner.support@stackroute.in>",
+  "author": "murali",
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.15.2",
